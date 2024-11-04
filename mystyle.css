@@ -1,0 +1,176 @@
+.hoca
+{
+    width:1200px; height:600px; 
+    border: 5px solid gold;
+    margin: 15px;
+    border-radius: 15px;
+    position: relative;
+}
+.nen
+{
+    width:1200px; height:600px;
+    border-radius: 10px;
+    position: relative;
+}
+.rong1
+{
+    width:300px; height:400px;
+    right: 70px;
+    bottom:13px;
+    position: absolute;
+}
+.rong2
+{
+    width:230px; height:250px;
+    left: 20px;
+    bottom:15px;
+    position: absolute;
+}
+.ca1
+{
+    position: absolute;
+    width:100px; height:100px;
+}
+#ca1
+{
+    position: absolute;
+    animation-name: Ca1;
+    animation-duration: 12s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+@keyframes Ca1
+{
+    0% {right: 200px; top: 100px;}
+    10% {right: 250px; top: 120px;}
+    25% {right: 300px; top: 100px;}
+    40% {right: 550px; top: 180px;}
+    60% {right: 700px; top: 250px;}
+    75% {right: 550px; top: 180px;}
+    80% {right: 400px; top: 150px;}
+    90% {right: 350px; top: 120px;}
+    100% {right: 200px; top: 100px;transform:scaleX(-0.8)}
+}
+.ca2
+{
+    position: absolute;
+    width:150px; height:100px;
+}
+#ca2
+{
+    position: absolute;
+    animation-name: Ca2;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+@keyframes Ca2
+{
+    0% {right: 300px; top: 400px;}
+    15% {right: 450px; top: 250px;}
+    25% {right: 750px; top: 180px;}
+    40% {right: 900px; top: 320px;}
+    65% {right: 1080px; top: 300px;}
+    70% {right: 850px; top: 150px;}
+    83% {right: 700px; top: 250px;}
+    90% {right: 450px; top: 200px;}
+    100% {right: 300px; top: 400px;transform:scaleX(-0.8)}
+}
+.ca3
+{
+    position: absolute;
+    width:150px; height:100px;
+}
+#ca3
+{
+    position: absolute;
+    animation-name: Ca3;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+@keyframes Ca3
+{
+    0% {left: 250px; top: 400px;}
+    15% {left: 450px; top: 350px;}
+    32% {left: 750px; top: 380px;}
+    45% {left: 900px; top: 250px;}
+    60% {left: 1080px; top: 300px;}
+    72% {left: 850px; top: 300px;}
+    84% {left: 700px; top: 350px;}
+    95% {left: 450px; top: 380px;}
+    100% {left: 250px; top: 400px;transform:scaleX(-0.8)}
+}
+.saobien
+{
+    width:80px; height:80px;
+    right: 100px;
+    bottom:55px;
+    position: absolute;
+}
+#saobien
+{
+    position: absolute;
+    animation-name: SaoBien;
+    animation-duration: 180s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+@keyframes SaoBien
+{
+    0% {right: 100px; bottom: 25px;}
+    100% {right: 900px; bottom: 5px;transform:scale(0.1)}
+}
+.ca4
+{
+    position: absolute;
+    width:100px; height:80px;
+}
+#ca4
+{
+    position: absolute;
+    animation-name: Ca4;
+    animation-duration: 8s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+@keyframes Ca4
+{
+    0% {left: 350px; top: 100px;}
+    20% {left: 650px; top: 80px;}
+    40% {left: 900px; top: 50px;}
+    60% {left: 900px; top: 100px;}
+    80% {left: 650px; top: 80px;}
+    100% {left: 350px; top:100px;transform:scaleX(-1)}
+}
+.ca5
+{
+    position: absolute;
+    width:90px; height:90px;
+}
+#ca5
+{
+    position: absolute;
+    animation-name: Ca5;
+    animation-duration: 12s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+@keyframes Ca5
+{
+    0% {right: 500px; top: 450px;}
+    10% {right: 750px; top: 420px;}
+    25% {right: 800px; top: 370px;}
+    35% {right: 900px; top: 380px;}
+    50% {right: 950px; top: 400px;}
+    60% {right: 870px; top: 350px;}
+    85% {right: 720px; top: 300px;}
+    95% {right: 630px; top: 380px;}
+    100% {right: 500px; top: 450px;transform:scaleX(-1)}
+}
