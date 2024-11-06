@@ -1,0 +1,60 @@
+.nen
+{
+    width:1500px; height:710px;
+    position:relative;
+    margin:auto
+}
+.bt1{
+    height: 75px;
+    width: 500px;
+    background-color: rgb(87, 119, 113);
+    position: absolute; left: 600px; top: 100px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 2s;
+    text-decoration: none;
+    font-size: 150%;
+    color: rgb(255, 255, 255);
+}
+.bt2{
+    height: 75px;
+    width: 500px;
+    background-color: rgb(87, 119, 113);
+    position: absolute; left: 600px; top: 225px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 2s;
+    text-decoration: none;
+    font-size: 150%;
+    color: rgb(255, 255, 255);
+}
+.bt3{
+    height: 75px;
+    width: 500px;
+    background-color: rgb(87, 119, 113);
+    position: absolute; left: 600px; top: 350px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 2s;
+    text-decoration: none;
+    font-size: 150%;
+    color: rgb(255, 255, 255);
+}
+.kk:hover{
+    width: 30%;
+    Color: blue;
+}
+.kk1:hover{
+    width: 30%;
+    Color: blue;
+}
+.kk2:hover{
+    width: 30%; 
+    Color: blue;
+}
