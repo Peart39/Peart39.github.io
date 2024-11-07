@@ -8,7 +8,7 @@
     height: 75px;
     width: 500px;
     background-color: rgb(87, 119, 113);
-    position: absolute; left: 550px; top: 100px;
+    position: absolute; left: 500px; top: 100px;
     border-radius: 10px;
     display: flex;
     justify-content: center;
@@ -22,7 +22,7 @@
     height: 75px;
     width: 500px;
     background-color: rgb(87, 119, 113);
-    position: absolute; left: 550px; top: 225px;
+    position: absolute; left: 500px; top: 225px;
     border-radius: 10px;
     display: flex;
     justify-content: center;
@@ -36,7 +36,7 @@
     height: 75px;
     width: 500px;
     background-color: rgb(87, 119, 113);
-    position: absolute; left: 550px; top: 350px;
+    position: absolute; left: 500px; top: 350px;
     border-radius: 10px;
     display: flex;
     justify-content: center;
